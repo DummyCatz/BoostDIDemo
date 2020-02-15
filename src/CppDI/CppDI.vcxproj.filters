@@ -29,7 +29,13 @@
     <ClInclude Include="Interfaces.hpp">
       <Filter>Source Files\Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="Car.h">
+    <ClInclude Include="Utils.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarFactory.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

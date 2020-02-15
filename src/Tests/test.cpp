@@ -3,7 +3,7 @@
 #include "Mocks/MockEngine.hpp"
 #include "Mocks/MockWheel.hpp"
 
-#include "CppDI/Car.h"
+#include "CppDI/Car.hpp"
 
 #include <memory>
 
