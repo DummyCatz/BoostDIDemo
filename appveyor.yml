@@ -1,0 +1,11 @@
+version: 1.0.{build}
+configuration: Debug
+platform: x86
+before_build:
+- cmd: nuget restore
+build:
+  verbosity: minimal
+before_test:
+- cmd: echo Running Tests
+after_test:
+- cmd: echo Tests are done
